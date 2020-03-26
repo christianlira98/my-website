@@ -1,0 +1,59 @@
+
+.language h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5;
+    border-bottom: 1.5px solid rgb(32, 119, 190); 
+    line-height: 0.7em;
+    font-weight: bolder;
+}
+
+.language h2 span {
+    background:#fff; 
+    padding-right:5px; 
+}
+
+.language mark {
+    padding:0;
+    color: rgb(32, 119, 190)
+}
+
+.language .language-entries {
+    list-style: none;
+}
+
+.language .language-entries .language-content {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5rem;
+}
+.language .language-entries .language-content h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.language .language-entries .language-content .language-value, .language-level {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 2em;
+}
+
+.language .language-entries .language-content .language-value {
+    align-items: flex-end;
+}
+
+.language .language-entries .language-content .language-level {
+    align-items: flex-start;
+}
+.language .language-entries .language-content h4, h5{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.language .language-entries .language-content h5{
+    font-size: 1.5rem;
+
+}

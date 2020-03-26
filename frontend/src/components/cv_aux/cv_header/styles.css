@@ -1,0 +1,50 @@
+.cv-header {
+    justify-self: center;
+}
+.cv-header h1{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 3px;
+}
+
+.cv-header h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cv-header mark {
+    font-weight: bolder;
+    color: black;
+    
+}
+
+.cv-header .contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    animation: none;
+}
+
+.cv-header .contact a {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: black;
+    padding: 5px;
+}
+
+.cv-header .contact i {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.cv-header .contact i[border-right] {
+    border-right: solid black 1px;
+}
+
+/* .cv-header .contact i:nth-child() {
+    padding-right: 5px;
+    border-right: solid black 1px;
+} */
+

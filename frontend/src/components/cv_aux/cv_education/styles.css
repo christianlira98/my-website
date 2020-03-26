@@ -1,0 +1,74 @@
+.education hr {
+    border-top: 1px solid rgb(32, 119, 190);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5;
+    border-bottom: 1.5px solid rgb(32, 119, 190); 
+    line-height: 0.7em;
+    font-weight: bolder;
+}
+
+.education h2 span {
+    background:#fff; 
+    padding-right:5px; 
+}
+
+
+.education mark {
+    padding:0;
+    color: rgb(32, 119, 190)
+}
+
+.education-entries {
+    list-style: none;
+}
+
+.education h4, h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.institution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.institution h5 {
+    color:  rgb(32, 119, 190);
+    margin-right: 2rem;
+}
+
+.course h5 {
+    margin-right: 2rem;
+}
+
+
+.education-entries .institution h4 {
+    text-transform: none;
+}
+
+.education-entries h4{
+    text-transform: uppercase;
+}
+
+.education-entries .institution h4 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.education-entries .course h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+}
+

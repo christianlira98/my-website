@@ -1,0 +1,59 @@
+
+.skills h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5;
+    border-bottom: 1.5px solid rgb(32, 119, 190); 
+    line-height: 0.7em;
+    font-weight: bolder;
+}
+
+.skills h2 span {
+    background:#fff; 
+    padding-right:5px; 
+}
+
+.skills mark {
+    padding:0;
+    color: rgb(32, 119, 190)
+}
+
+.skills .skills-entries {
+    list-style: none;
+}
+
+.skills .skills-entries .skills-content {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5rem;
+}
+.skills .skills-entries .skills-content h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.skills .skills-entries .skills-content .skills-names, .skills-types {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 2em;
+}
+
+.skills .skills-entries .skills-content .skills-names {
+    align-items: flex-end;
+}
+
+.skills .skills-entries .skills-content .skills-types {
+    align-items: flex-start;
+}
+.skills .skills-entries .skills-content h4, h5{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.skills .skills-entries .skills-content h5{
+    font-size: 1.5rem;
+
+}

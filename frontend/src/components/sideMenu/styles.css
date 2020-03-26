@@ -1,0 +1,85 @@
+.publication-sidemenu {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #262524;
+}
+
+@media (max-width: 992px) {
+
+   .publication-main-div .publication-sidemenu{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+   }
+   
+
+
+   .publication-main-div .publication-sidemenu .my-content h1 {
+       font-size: 2rem;
+       margin: 1vh 0;
+   }
+
+   .publication-main-div .publication-sidemenu .my-content p, .location {
+        margin: 0;
+        font-size: 1rem;
+        margin: 1vh 0;
+    }
+
+   .publication-sidemenu .publication-photo img {
+        width: 100px;
+        height: 100px;
+   }
+
+   .publication-main-div .publication-sidemenu .social-medias {
+       font-size: 1rem;
+   }
+
+}
+
+.publication-sidemenu {
+    width: 20vw;
+    height: 100vh;
+    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    text-align: left;
+}
+
+.publication-sidemenu .location {
+    display: flex;
+}
+
+.publication-sidemenu .location i {
+    padding: 5px;
+    width: inherit;
+    display: inline-block;
+    text-align: left;
+}
+
+.publication-sidemenu .my-content h1 {
+    font-size: 3rem;
+    
+}
+
+.publication-sidemenu .my-content p {
+    font-size: 1.5rem;
+}
+
+.publication-sidemenu .social-medias {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    animation: none;
+}
+
+.publication-sidemenu .social-medias a{
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.822);
+    padding: 5px;
+}
+
+.publication-sidemenu .social-medias a:hover {
+    font-size: 20px;
+    color: black;
+}
+
+
+

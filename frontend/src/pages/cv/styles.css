@@ -1,0 +1,35 @@
+.cv-main {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #323232;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: initial;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+@media (max-width: 992px) {
+    .cv-main {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+        width: 100vw;
+    }
+ 
+    .cv-main .cv-main-content {
+        font-size: 1.5rem;
+        margin-left: 2vw;
+    }
+ }
+ 
+
+.cv-content {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.cv-grid {
+    display: grid;
+}
