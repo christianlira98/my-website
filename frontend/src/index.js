@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import ReactDOM from 'react-dom';
 import Grid from './pages/grid_page'
@@ -31,7 +31,7 @@ class Renderer {
 
     _render = () => {
         ReactDOM.render(
-            <HashRouter basename='/'>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route
                         path = '/'
@@ -59,7 +59,7 @@ class Renderer {
                         }
                     />
                 </Switch>
-            </HashRouter>
+            </BrowserRouter>
                     , document.getElementById('root')
         );
       }
