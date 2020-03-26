@@ -31,10 +31,10 @@ class Renderer {
 
     _render = () => {
         ReactDOM.render(
-            <BrowserRouter>
+            <BrowserRouter basename = {process.env.PUBLIC_URL}>
                 <Switch>
                     <Route
-                        path = {process.env.PUBLIC_URL + '/'}
+                        path = '/'
                         exact = {true}
                         render = {(props) => <Grid {...props} 
                             header = {this.state.header} 
@@ -43,7 +43,7 @@ class Renderer {
                         }
                     />
                     <Route 
-                        path = {process.env.PUBLIC_URL +'/publications'}
+                        path = '/publications'
                         exact = {true}
                         render = {(props) => <Grid {...props}
                             header = {this.state.header} 
@@ -51,7 +51,7 @@ class Renderer {
                         }
                     />
                     <Route 
-                        path = {process.env.PUBLIC_URL + '/cv'}
+                        path = '/cv'
                         exact = {true}
                         render = {(props) => <Grid {...props}
                             header = {this.state.header} 
