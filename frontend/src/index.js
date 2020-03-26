@@ -34,7 +34,7 @@ class Renderer {
             <BrowserRouter>
                 <Switch>
                     <Route
-                        path = '/'
+                        path = {process.env.PUBLIC_URL + '/'}
                         exact = {true}
                         render = {(props) => <Grid {...props} 
                             header = {this.state.header} 
@@ -43,7 +43,7 @@ class Renderer {
                         }
                     />
                     <Route 
-                        path = '/publications'
+                        path = {process.env.PUBLIC_URL +'/publications'}
                         exact = {true}
                         render = {(props) => <Grid {...props}
                             header = {this.state.header} 
@@ -51,7 +51,7 @@ class Renderer {
                         }
                     />
                     <Route 
-                        path = '/cv'
+                        path = {process.env.PUBLIC_URL + '/cv'}
                         exact = {true}
                         render = {(props) => <Grid {...props}
                             header = {this.state.header} 
