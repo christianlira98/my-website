@@ -31,7 +31,7 @@ class Renderer {
 
     _render = () => {
         ReactDOM.render(
-            <HashRouter basename = {process.env.PUBLIC_URL}>
+            <HashRouter basename='/'>
                 <Switch>
                     <Route
                         path = '/'
