@@ -45,7 +45,7 @@ export default class CVLanguage extends Component {
                         <mark>Lan</mark>guages
                     </span>
                 </h2>
-                <ul className="language-entries">
+                <ul className="language-entries entries">
                     <li>
                         <span className="language-content"> 
                             <span className="language-value">

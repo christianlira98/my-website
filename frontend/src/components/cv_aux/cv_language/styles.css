@@ -57,3 +57,12 @@
     font-size: 1.5rem;
 
 }
+
+@media (max-width: 992px) {
+
+    .language-entries .language-content .language-value h4, h5 {
+        font-size: 1.5rem !important;
+    }
+
+
+}

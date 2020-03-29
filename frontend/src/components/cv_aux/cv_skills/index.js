@@ -42,10 +42,10 @@ export default class CVSkills extends Component {
             <div className = "skills" >
                 <h2>
                     <span>
-                        <mark>Lan</mark>guages
+                        <mark>Ski</mark>lls
                     </span>
                 </h2>
-                <ul className="skills-entries">
+                <ul className="skills-entries entries">
                     <li>
                         <span className="skills-content"> 
                             <span className="skills-names">

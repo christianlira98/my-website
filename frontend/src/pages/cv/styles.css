@@ -17,10 +17,51 @@
         width: 100vw;
     }
  
-    .cv-main .cv-main-content {
+    .cv-main .cv-content {
         font-size: 1.5rem;
         margin-left: 2vw;
     }
+
+    .cv-main .cv-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .cv-main .cv-content h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .cv-main .cv-content .contact {
+        width: 100vw;
+        justify-content: center;
+    }
+    .cv-main .cv-content a {
+        font-size: 1rem !important;
+        /* overflow: hidden; */
+    }
+
+    .cv-main .cv-content i {
+        padding-left: 0 !important;
+        padding-right: 5px !important;
+    }
+
+    .cv-main .cv-content p {
+        font-size: 1.5rem ;
+    }
+
+
+    /* .cv-main .cv-content .entries h4 {
+        font-size: 1rem !important;
+        letter-spacing: 0;
+    }
+
+    .cv-main .cv-content .entries h5     {
+        font-size: 1rem !important;
+    } */
+
+
+
+
+
  }
  
 

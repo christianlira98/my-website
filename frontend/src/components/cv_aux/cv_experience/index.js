@@ -57,7 +57,7 @@ export default class CVExperience extends Component {
                         <mark>Exp</mark>erience
                     </span>
                 </h2>
-                <ul className="experience-entries">
+                <ul className="experience-entries entries">
                     {this.state.works}
                 </ul>
 

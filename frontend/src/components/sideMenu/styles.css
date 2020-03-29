@@ -5,33 +5,33 @@
 
 @media (max-width: 992px) {
 
-   .publication-main-div .publication-sidemenu{
-        width: inherit;
-        height: auto;
-        display: flex;
-        justify-content: space-evenly;
+   .publication-sidemenu{
+        width: inherit !important;
+        height: auto !important;
+        display: flex !important;
+        justify-content: space-evenly !important;
    }
    
 
 
-   .publication-main-div .publication-sidemenu .my-content h1 {
-       font-size: 2rem;
-       margin: 1vh 0;
+   .publication-sidemenu .my-content h1 {
+       font-size: 2rem !important;
+       margin: 1vh 0 !important;
    }
 
-   .publication-main-div .publication-sidemenu .my-content p, .location {
-        margin: 0;
-        font-size: 1rem;
-        margin: 1vh 0;
+   .publication-sidemenu .my-content p, .location {
+        margin: 0 !important;
+        font-size: 1rem !important;
+        margin: 1vh 0 !important;
     }
 
    .publication-sidemenu .publication-photo img {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
    }
 
-   .publication-main-div .publication-sidemenu .social-medias {
-       font-size: 1rem;
+   .publication-sidemenu .social-medias {
+       font-size: 1rem !important;
    }
 
 }

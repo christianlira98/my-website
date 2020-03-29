@@ -54,7 +54,7 @@ export default class CVEducation extends Component {
                         <mark>Edu</mark>cation
                     </span>
                 </h2>
-                <ul className="education-entries">
+                <ul className="education-entries entries">
                     {this.state.education}
                 </ul>
 

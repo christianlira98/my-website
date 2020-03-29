@@ -29,6 +29,7 @@
 }
 
 .cv-header .contact a {
+    box-sizing: border-box;
     font-size: 1.3rem;
     margin-top: 0;
     color: black;
@@ -47,4 +48,5 @@
     padding-right: 5px;
     border-right: solid black 1px;
 } */
+
 
