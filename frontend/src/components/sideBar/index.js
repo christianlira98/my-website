@@ -28,9 +28,9 @@ export default class SideBar extends Component {
             <span>
                 <nav className="main-nav">
                     <div >
-                        <a href="/" className="link">Home</a>
-                        <a href="/publications" className="link">Publications</a>
-                        <a href="/cv" className="link">CV</a>
+                        <a href={process.env.PUBLIC_URL+ "/"} className="link">Home</a>
+                        <a href= {process.env.PUBLIC_URL+ "/publications"} className="link">Publications</a>
+                        <a href= {process.env.PUBLIC_URL+ "/cv"} className="link">CV</a>
                     </div>
                 </nav>
             </span>
