@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import * as serviceWorker from './serviceWorker';
 import ReactDOM from 'react-dom';
 import Grid from './pages/grid_page'
 import Header from './components/header'
@@ -67,7 +66,6 @@ class Renderer {
     
 }
 
-serviceWorker.unregister()
 
 const passingProps = {
     header: <Header sideMenu = {SideBar}/>,
