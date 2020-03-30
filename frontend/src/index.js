@@ -35,7 +35,8 @@ class Renderer {
                     <Route
                         path = '/'
                         exact = {true}
-                        render = {(props) => <Grid {...props} 
+                        render = {(props) => <Grid {...props}
+                            hideSideBar = {true}
                             header = {this.state.header} 
                             main = {this.state.home} 
                             about = {this.state.about} />
@@ -45,6 +46,7 @@ class Renderer {
                         path = '/publications'
                         exact = {true}
                         render = {(props) => <Grid {...props}
+                            hideSideBar = {true}
                             header = {this.state.header} 
                             main = {this.state.publication} />
                         }
@@ -53,6 +55,7 @@ class Renderer {
                         path = '/cv'
                         exact = {true}
                         render = {(props) => <Grid {...props}
+                            hideSideBar = {true}
                             header = {this.state.header} 
                             main = {this.state.cv} />
                         }

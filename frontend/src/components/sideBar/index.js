@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 import './styles.css'
 
 
 
 export default class SideBar extends Component {
+
+    constructor(props) {
+        super(props)
+    }
 
     handleUrlChange = () => {
         const pathname = window.location.pathname
@@ -28,9 +33,9 @@ export default class SideBar extends Component {
             <span>
                 <nav className="main-nav">
                     <div >
-                        <a href={process.env.PUBLIC_URL+ "/"} className="link">Home</a>
-                        <a href= {process.env.PUBLIC_URL+ "/publications"} className="link">Publications</a>
-                        <a href= {process.env.PUBLIC_URL+ "/cv"} className="link">CV</a>
+                        <Link to = "/" className="link">Home</Link>
+                        <Link to="/publications" className="link">Publications</Link>
+                        <Link to = "/cv" className="link">CV</Link>
                     </div>
                 </nav>
             </span>

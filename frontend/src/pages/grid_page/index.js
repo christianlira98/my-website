@@ -32,7 +32,7 @@ export default class Grid extends Component {
     render() {
         return (
             <Container fluid>
-                {this.props.header}
+                {React.cloneElement(this.props.header, { hideSideBar: this.props.hideSideBar})}
                 <Row className="main-content">
                     <Col>
                         <main>

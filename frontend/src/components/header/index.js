@@ -11,11 +11,11 @@ export default class Header extends Component {
         super(props)
 
         this.state = {
+            hideSideBar: props.hideSideBar,
             sideMenu: null
         }
 
     }
-
      
     handleOnClick = () => {
         if(this.state.sideMenu == null) {
@@ -26,6 +26,14 @@ export default class Header extends Component {
             this.setState({
                 sideMenu: null
             });
+        }
+    }
+
+    UNSAFE_componentWillReceiveProps() {
+        if(this.state.hideSideBar) {
+            this.setState({
+                sideMenu: null
+            });           
         }
     }
 
