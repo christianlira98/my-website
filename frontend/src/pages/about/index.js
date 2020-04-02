@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import self from '../../images/self-nobackground.png'
 import './styles.css'
 
 export default class About extends Component {
@@ -8,7 +9,7 @@ export default class About extends Component {
         return (
 
             <article className="about-article">
-                <img src="https://images.vexels.com/media/users/3/138177/isolated/preview/2bdc342341743e8e460582eb7891c2bb---cone-de-transporte-pessoa-by-vexels.png" 
+                <img src={self} 
                 alt="me" />
 
                 <aside className="about-content">

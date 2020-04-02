@@ -8,14 +8,14 @@
     text-align: justify;
     height: 60vh;
     overflow: hidden;
-    background-image: url('../../images/LRxGqsU(1).jpg');
+    background-color: rgb(12, 12, 12);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
 
 @media (max-width: 992px) {
     .article {
-        background-image: url('../../images/LRxGqsU-2.jpg');
+        background-color: rgb(12, 12, 12);
     }
 }
 .animation {
